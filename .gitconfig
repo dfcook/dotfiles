@@ -1,0 +1,13 @@
+[core]
+	editor = nano
+[alias]
+	br = branch
+	st = status -sb
+	ll = log --oneline
+	ci = commit -am
+	co = checkout
+	cob = checkout -b
+	aa = "!git add -u; git add .; git st"
+	undo = reset --hard HEAD
+	pm = "!git co master && git pull"
+	com = "!git co master && git pull && git checkout -b"
