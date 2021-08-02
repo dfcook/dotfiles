@@ -1,5 +1,5 @@
 [core]
-	editor = nano
+	editor = vim
 [alias]
 	br = branch
 	st = status -sb
@@ -7,6 +7,7 @@
 	ci = commit -am
 	co = checkout
 	cob = checkout -b
+  mm = merge master
 	aa = "!git add -u; git add .; git st"
 	undo = reset --hard HEAD
 	pm = "!git co master && git pull"
