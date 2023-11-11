@@ -12,3 +12,6 @@
 	undo = reset --hard HEAD
 	pm = "!git co master && git pull"
 	com = "!git co master && git pull && git checkout -b"
+[user]
+	name = Daniel Cook
+	email = dfcook@hotmail.com
